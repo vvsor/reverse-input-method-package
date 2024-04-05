@@ -1,5 +1,13 @@
 ;;; reverse-input-method.el --- Build the reverse mapping of single letters from INPUT-METHOD.
+;; Version: 1.0
+;; Keywords: russian, keyboard, input
+;; URL: https://github.com/vvsor/reverse-input-method-package
 
+;;; Commentary:
+;; This package provides a minor mode to frobnicate and/or
+;; bifurcate any flanges you desire.  To activate it, just type
+
+;;;###autoload
 (defun reverse-input-method (input-method)
   "Build the reverse mapping of single letters from INPUT-METHOD."
   (interactive
